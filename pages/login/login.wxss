@@ -1,1 +1,75 @@
 /* pages/login/login.wxss */
+
+.page-render {
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  background: linear-gradient(0deg, #395ecb 0%, #3657be 35%, #242161 85%, #1a0531 100%);
+  padding-top: 200rpx;
+}
+
+.login-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 200rpx;
+}
+
+.top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-text text {
+  margin-top: 10rpx;
+  color: #ddd;
+}
+
+.top-text text:nth-child(2) {
+  font-size: 28rpx;
+}
+.user-text{
+  margin: 100rpx 50rpx;
+}
+.user-back{
+  background: rgba(0, 0, 0, .2);
+  margin-top: 30rpx;
+  border-radius: 200rpx;
+  font-size: 32rpx;
+   position: relative;
+}
+.user-text input{
+  border-radius: 100rpx;
+  margin: 0 50rpx ;
+  padding-left: 55rpx;
+  height: 70rpx
+}
+.user-icon{
+  position: absolute;
+  left: 40rpx;
+  top: 14rpx;
+  width: 40rpx;
+  height: 40rpx
+}
+.login-btn{
+  color: white;
+  background: #157ad6;
+  margin-top: 100rpx;
+  height: 70rpx;
+  border-radius: 200rpx;
+  line-height: 70rpx;
+   font-size: 34rpx
+}
+.reg{
+  color: #ddd;
+  display: flex;
+  margin-top: 20rpx;
+  justify-content: center;
+  font-size: 34rpx
+}

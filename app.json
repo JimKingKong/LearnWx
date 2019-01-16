@@ -1,5 +1,6 @@
 {
   "pages":[
+    "pages/openeyes/openeyes",
     "pages/login/login",
     "pages/xiecheng/xiecheng",
     "pages/index/index",

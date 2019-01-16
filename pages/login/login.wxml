@@ -1,2 +1,25 @@
-<!--pages/login/login.wxml-->
-<text>pages/login/login.wxml</text>
+<view class='page-render'>
+  <view class='login-top'>
+    <image src='../../img/login/header.jpg' class='logo'></image>
+
+    <view class='top-text'>
+      <text>小码哥</text>
+      <text>广州天河棠下大地工业区</text>
+    </view>
+    
+    <view class='user-text'>
+      <view class='user-back'>
+      <image src='../../img/login/icon_people.png' class='user-icon'></image>
+          <input class='user-in' placeholder='请输入用户名'></input>
+      </view>
+  <view class='user-back'>
+   <image src='../../img/login/icon_password.png' class='user-icon'></image>
+          <input class='user-in' placeholder='请输入密码'></input>
+      </view>
+      <button class='login-btn'>登录</button>
+       <text class='reg'>注册</text>
+    </view>
+  </view>
+  
+   
+</view>
