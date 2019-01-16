@@ -1,8 +1,9 @@
 {
   "pages":[
+    "pages/xiecheng/xiecheng",
     "pages/index/index",
-    "pages/logs/logs",
-    "pages/xiecheng/index"
+    "pages/logs/logs"
+    
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -1,0 +1,53 @@
+/* pages/xiecheng/xiecheng.wxss */
+.total{
+  display: flex;
+  width: 100%;
+  height: 200rpx;
+  color: white;
+  border-bottom: 1rpx solid white;
+  margin: 10rpx 0
+}
+.left{
+  flex:1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.right{
+  flex:2;
+  display: flex;
+  flex-direction: column
+}
+.textitem{
+  text-align: center;
+  font-size: 32rpx;
+  flex:1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1rpx solid white
+
+}
+.right-top{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+.right-bottom{
+  display: flex;
+   flex:1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center
+}
+
+.main-pic{
+  height: 100rpx;
+  width: 100rpx;
+
+
+}
