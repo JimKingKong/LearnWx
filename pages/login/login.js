@@ -1,4 +1,4 @@
-// pages/xiecheng/index.js
+// pages/login/login.js
 Page({
 
   /**
