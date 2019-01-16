@@ -1,2 +1,12 @@
 <!--pages/openeyes/openeyes.wxml-->
-<text>pages/openeyes/openeyes.wxml</text>
+<view class='page'>
+  <scroll-view scroll-y class='scorll'>
+    <view wx:for="{{eyes}}" wx:key="{{index}}" class='total' style="background:url({{item.image}});background-size:cover">
+      <view class='title'>
+      <text>{{item.title}}</text>
+      <text>{{item.slogan}}</text>
+      <image src="{{item.icon}}" class='icon'></image>
+      </view>
+    </view>
+  </scroll-view>
+</view>
