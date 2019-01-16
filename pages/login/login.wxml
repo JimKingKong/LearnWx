@@ -6,20 +6,23 @@
       <text>小码哥</text>
       <text>广州天河棠下大地工业区</text>
     </view>
-    
+
+
+    <form  bindsubmit='onLogin'>
     <view class='user-text'>
       <view class='user-back'>
       <image src='../../img/login/icon_people.png' class='user-icon'></image>
-          <input class='user-in' placeholder='请输入用户名'></input>
+          <input name='user' class='user-in' placeholder='请输入用户名'></input>
       </view>
   <view class='user-back'>
    <image src='../../img/login/icon_password.png' class='user-icon'></image>
-          <input class='user-in' placeholder='请输入密码'></input>
+          <input name='password' class='user-in' placeholder='请输入密码' password></input>
       </view>
-      <button class='login-btn'>登录</button>
+      <button  class='login-btn' form-type='submit'>登录</button>
        <text class='reg'>注册</text>
     </view>
+      </form>
   </view>
-  
+
    
 </view>

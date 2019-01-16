@@ -62,5 +62,11 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  /**
+   * 点击登录回调
+   */
+  onLogin(event) {
+    console.log(event.detail)
   }
 })

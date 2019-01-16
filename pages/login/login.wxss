@@ -34,42 +34,48 @@
 .top-text text:nth-child(2) {
   font-size: 28rpx;
 }
-.user-text{
+
+.user-text {
   margin: 100rpx 50rpx;
 }
-.user-back{
-  background: rgba(0, 0, 0, .2);
+
+.user-back {
+  background: rgba(0, 0, 0, 0.2);
   margin-top: 30rpx;
   border-radius: 200rpx;
   font-size: 32rpx;
-   position: relative;
+  position: relative;
 }
-.user-text input{
+
+.user-text input {
   border-radius: 100rpx;
-  margin: 0 50rpx ;
+  margin: 0 50rpx;
   padding-left: 55rpx;
-  height: 70rpx
+  height: 70rpx;
 }
-.user-icon{
+
+.user-icon {
   position: absolute;
   left: 40rpx;
   top: 14rpx;
   width: 40rpx;
-  height: 40rpx
+  height: 40rpx;
 }
-.login-btn{
+
+.login-btn {
   color: white;
   background: #157ad6;
   margin-top: 100rpx;
   height: 70rpx;
   border-radius: 200rpx;
   line-height: 70rpx;
-   font-size: 34rpx
+  font-size: 34rpx;
 }
-.reg{
+
+.reg {
   color: #ddd;
   display: flex;
   margin-top: 20rpx;
   justify-content: center;
-  font-size: 34rpx
+  font-size: 34rpx;
 }
