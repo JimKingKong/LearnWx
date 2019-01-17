@@ -16,8 +16,9 @@
 }
 .right{
   flex:2;
+  flex-wrap: wrap;
   display: flex;
-  flex-direction: column
+  flex-direction: row
 }
 .textitem{
   text-align: center;
@@ -39,7 +40,7 @@
 }
 .right-bottom{
   display: flex;
-   flex:1;
+  flex:1;
   flex-direction: row;
   justify-content: center;
   align-items: center
@@ -48,4 +49,13 @@
 .main-pic{
   height: 100rpx;
   width: 100rpx;
+}
+.right-text{
+  width: 50%;
+  height: 50%;
+  line-height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
 }

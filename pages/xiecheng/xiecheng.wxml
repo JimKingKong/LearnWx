@@ -1,18 +1,21 @@
 <block wx:for="{{itemBeans}}" wx:key="{index}">
-  <view class='total'style="background:{{item.bgColor}}">
+  <view class='total' style="background:{{item.bgColor}}">
     <view class='left'>
       <text>{{item.title}}</text>
       <image class='main-pic' src="{{item.imageUrl}}"></image>
     </view>
     <view class='right'>
-     <view class='right-top'>
+      <!-- <view class='right-top'>
         <text class='textitem'>{{item.items[0].title}}</text>  
         <text class='textitem'>{{item.items[1].title}}</text> 
      </view>
       <view class='right-bottom'>
         <text class='textitem'>{{item.items[2].title}}</text>  
         <text class='textitem'>{{item.items[3].title}}</text> 
-     </view>
+     </view> -->
+      <text wx:for="{{item.items}}" wx:for-item="textitem"  wx:key="{{index}}" class='right-text'>
+        {{textitem.title}}
+      </text>
     </view>
   </view>
 </block>

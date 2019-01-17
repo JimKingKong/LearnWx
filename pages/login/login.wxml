@@ -11,7 +11,7 @@
     <form  bindsubmit='onLogin'>
     <view class='user-text'>
       <view class='user-back'>
-      <image src='../../img/login/icon_people.png' class='user-icon'></image>
+      <image  src='../../img/login/icon_people.png'  class='user-icon'></image>
           <input name='user' class='user-in' placeholder='请输入用户名'></input>
       </view>
   <view class='user-back'>
