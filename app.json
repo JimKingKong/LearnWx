@@ -1,5 +1,11 @@
 {
   "pages":[
+    "pages/scrollview/scrollview",
+    "pages/loading/loading",
+    "pages/richText/richtext",
+    "pages/picker/picker",
+    "pages/swiper/swiper",
+    "pages/video/video",
     "pages/xiecheng/xiecheng",
     "pages/login/login",
     "pages/openeyes/openeyes",

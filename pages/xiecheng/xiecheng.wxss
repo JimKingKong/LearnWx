@@ -12,7 +12,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column
+  flex-direction: column;
+  border-bottom: 1rpx solid white;
+  border-right: 1rpx solid white
 }
 .right{
   flex:2;
@@ -58,4 +60,6 @@
   justify-content: center;
   align-items: center;
   box-sizing: border-box;
+  border-bottom: 1rpx solid white;
+  border-right: 1rpx solid white
 }

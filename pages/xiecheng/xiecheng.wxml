@@ -15,6 +15,7 @@
      </view> -->
       <text wx:for="{{item.items}}" wx:for-item="textitem"  wx:key="{{index}}" class='right-text'>
         {{textitem.title}}
+       
       </text>
     </view>
   </view>
