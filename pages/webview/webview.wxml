@@ -1,0 +1,1 @@
+<web-view src="m.jd.com" bindload="onLoad"></web-view>

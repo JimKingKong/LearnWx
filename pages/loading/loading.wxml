@@ -23,4 +23,5 @@
 <import src="../template/temp.wxml"></import>
 <template is="imTest"></template>
 <template is="loading"></template>
+<include src="../template/temp.wxml"></include>
 

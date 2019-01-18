@@ -1,0 +1,36 @@
+<checkbox class="" value="play" disabled="{{false}}" checked="false" color="">
+  play
+</checkbox>
+<checkbox value="看电影"  disabled="{{false}}" checked="{{true}}">
+看电影
+</checkbox>
+
+<view >====================</view>
+<checkbox-group bindchange="onCheck">
+  <checkbox class="" value="play" disabled="{{false}}" checked="false" color="">
+    play
+  </checkbox>
+  <checkbox class="" value="movie" disabled="{{false}}" checked="false" color="">
+    看电影
+  </checkbox>
+ 
+</checkbox-group>
+<view >*******************</view>
+<checkbox-group bindchange="onLabel">
+
+<label for="bs">
+<checkbox id="bs" value="打篮球" checked="{{true}}"/><text >打篮球</text>
+</label>
+<label for="table" >
+<checkbox id="table" value="打乒乓球" /><text >打乒乓球</text>
+
+</label>
+<label for="">
+<checkbox  value="羽毛球" checked="{{true}}"/><text >羽毛球</text>
+</label>
+</checkbox-group>
+<view >-----------------</view>
+  <radio-group bindchange="onRadio">
+  <label for=""><radio value="male" color="red"/><text >male</text></label>
+  <label for=""><radio value="female" color="red"/><text >female</text></label>
+  </radio-group>

@@ -1,0 +1,8 @@
+/* pages/opendata/opendata.wxss */
+.open-image{
+  display: inline-block;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100rpx;
+  overflow: hidden;
+}

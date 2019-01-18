@@ -1,1 +1,4 @@
 /* pages/richText/richtext.wxss */
+.rich-text{
+  color:red;
+}

@@ -1,21 +1,11 @@
-// pages/richText/richtext.js
-const temp = `
-<div>
-<p class="rich-text">我是richtext</p>
-<p style="color:blue">我是P标签</p>
-</div>
-`
-
-
-
-
+// pages/opendata/opendata.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    temp
+
   },
 
   /**

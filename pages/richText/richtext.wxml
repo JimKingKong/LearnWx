@@ -1,2 +1,4 @@
 <!--pages/richText/richtext.wxml-->
-<text>pages/richText/richtext.wxml</text>
+<rich-text class="" nodes="{{temp}}">
+  
+</rich-text>
