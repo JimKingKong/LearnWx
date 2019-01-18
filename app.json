@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/scrollview/scrollview",
     "pages/loading/loading",
+    "pages/scrollview/scrollview",
     "pages/richText/richtext",
     "pages/picker/picker",
     "pages/swiper/swiper",

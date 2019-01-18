@@ -1,0 +1,22 @@
+<template name="imTest" class="imTest">
+<view style="background:pink">
+<text>我是引用的模板</text>
+</view>
+</template>
+
+<template name="loading">
+<view class="testLoading">
+<image class="weui-loading" src="{{}}" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+  
+</image>
+<text selectable="false" space="false" decode="false">
+  加载中...
+</text>
+</view>
+</template>
+
+<view class="" hover-class="none" hover-stop-propagation="false">
+ <text class="" selectable="false" space="false" decode="false">
+   include 引入的text
+ </text>
+</view>

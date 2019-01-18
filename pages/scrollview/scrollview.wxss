@@ -1,1 +1,36 @@
 /* pages/scrollview/scrollview.wxss */
+.scroll {
+  height: 300rpx;
+  white-space: nowrap
+}
+
+.total {
+  display: inline-block;
+  height: 100%;
+  width: 250rpx;
+  text-align: center;
+}
+
+.large-pic {
+  height: 200rpx;
+  width: 90%;
+}
+
+.footer-text {
+
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+
+}
+.current-price{
+  color: red;
+  font-size: 33rpx;
+  font-weight: bold
+}
+.old-price{
+  color: #ccc;
+  font-size: 25rpx;
+  text-decoration:line-through 
+}

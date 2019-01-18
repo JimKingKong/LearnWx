@@ -1,2 +1,26 @@
-<!--pages/loading/loading.wxml-->
-<text>pages/loading/loading.wxml</text>
+<!-- pages/loading/loading.wxml -->
+<template name="firstTemp">
+  <view style="background:red">
+    <text>我是text第一个模板</text>
+  </view>
+</template>
+<template name="secondTemp">
+  <view style="background:green">
+    <text class="" selectable="false" space="false" decode="false">我是第二个文本</text>
+  </view>
+</template>
+<template name="itemTemp">
+  <view style="background:blue">
+    <text style="color:white" selectable="false" space="false" decode="false">{{title}}</text>
+     <text style="color:white" selectable="false" space="false" decode="false">{{text}}</text>
+         <text style="color:white" selectable="false" space="false" decode="false">{{icon}}</text>
+  </view>
+</template>
+<template is="firstTemp"></template>
+<template is="secondTemp"></template>
+<template is="{{2>3?'firstTemp':'secondTemp'}}"></template>
+<template is="itemTemp" data="{{...item,icon:'我是icon'}}"></template>
+<import src="../template/temp.wxml"></import>
+<template is="imTest"></template>
+<template is="loading"></template>
+

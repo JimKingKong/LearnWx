@@ -1,2 +1,11 @@
-<!--pages/scrollview/scrollview.wxml-->
-<text>pages/scrollview/scrollview.wxml</text>
+<scroll-view scroll-x class="scroll" scroll-into-view="s2" bindscroll="onBindScroll" scroll-with-animation="{{true}}">
+  <block wx:for="{{scroll}}" wx:key="{{index}}">
+    <view class="total" id="s{{index}}">
+      <image class="large-pic" src="{{item.imgUrl}}"></image>
+      <view class="footer-text">
+        <text class="current-price">💴{{item.price}}</text>
+        <text class="old-price">💴{{item.outPrice}}</text>
+      </view>
+    </view>
+  </block>
+</scroll-view>

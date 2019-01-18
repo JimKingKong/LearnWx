@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    item:{
+      title:'我是数据模板',
+      text:'我是text'
+    }
+     
   },
 
   /**
