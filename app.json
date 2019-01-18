@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/video/video",
+    "pages/swiper/swiper",
     "pages/picker/picker",
     "pages/checkbox/checkbox",
     "pages/opendata/opendata",
@@ -7,8 +9,6 @@
     "pages/richText/richtext",
     "pages/loading/loading",
     "pages/scrollview/scrollview",
-    "pages/swiper/swiper",
-    "pages/video/video",
     "pages/xiecheng/xiecheng",
     "pages/login/login",
     "pages/openeyes/openeyes",

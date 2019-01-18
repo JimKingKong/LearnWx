@@ -5,7 +5,11 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    banners:[
+      'https://www.chtholly.ac.cn/img/kl4.png',
+      'https://img3.doubanio.com/view/note/l/public/p47249352.webp',
+      'https://img3.doubanio.com/view/note/l/public/p47249362.webp'
+    ]
   },
 
   /**

@@ -1,0 +1,34 @@
+<picker mode="selector" range="{{array}}" value="1" bindchange="onPicker">
+  <button class="" size="mini" type="primary">电我鸭</button>
+</picker>
+<picker class="" mode="multiSelector" range="{{multiArray}}" bindcolumnchange="onColmn" value="{{[1,1,1]}}" bindchange="onMulti">
+  <button type="primary" size="mini">多项选择</button>
+</picker>
+<picker class="" mode="time" value="{{time}}" disabled="{{false}}" bindchange="onTime" start="12:00" end="24:00">
+  <button type="primary" size="mini">timePicker</button>
+</picker>
+<picker mode="date" value="{{date}}" start="2018-01-01" end="2020-01-01" bindchange="bindDateChange">
+  <button>当前选择: {{date}}</button>
+</picker>
+<picker mode="region" value="{{region}}" bindchange="onRegion">
+  <button type="primary" size="mini">地区选择</button>
+</picker>
+<view style="background:red">
+  <picker-view value="[1,1,1]" style="background:orange;height:200px;width:100%" bindchange="onPickerView" indicator-style="height:50px">
+    <picker-view-column>
+      <view style="line-height:50px;text-align:center" wx:for="{{years}}" wx:key="{{index}}">
+        {{item}}年
+      </view>
+    </picker-view-column>
+    <picker-view-column>
+      <view style="line-height:50px;text-align:center" wx:for="{{months}}" wx:key="{{index}}">
+        {{item}}月
+      </view>
+    </picker-view-column>
+    <picker-view-column>
+      <view style="line-height:50px;text-align:center" wx:for="{{days}}" wx:key="{{index}}">
+        {{item}}日
+      </view>
+    </picker-view-column>
+  </picker-view>
+</view>

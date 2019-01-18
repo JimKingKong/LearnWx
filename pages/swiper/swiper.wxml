@@ -1,2 +1,8 @@
-<!--pages/swiper/swiper.wxml-->
-<text>pages/swiper/swiper.wxml</text>
+<swiper interval="500" vertical indicator-dots="{{true}}" autoplay circular >
+<block wx:for="{{banners}}" wx:key="{{index}}">
+  <swiper-item class="" item-id="banners{{index}}}" style="text-align:center">
+    <image src="{{item}}"mode="aspectFill" />
+</swiper-item>
+</block>
+  
+</swiper>

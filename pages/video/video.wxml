@@ -1,2 +1,9 @@
-<!--pages/video/video.wxml-->
-<text>pages/video/video.wxml</text>
+<view class="total" >
+<block wx:for="{{urls}}" wx:key="{{index}}">
+  <video src="{{item}}" style="width:100%" id="video{{index}}"
+   enable-danmu danmu-list="{{danmuList}}" danmu-btn autoplay loop page-gesture  bindplay="onBindplay"
+      bindpause="onBindpause"></video>
+</block>
+  <input id="danmuinput" bindblur="onInput" type="text" placeholder="请输入要发送的弹幕" style="margin-top:10rpx;background:grey;margin-bottom:10rpx"/>
+  <button type="primary" size="mini" bindtap="SendDanMu">点击发送</button>
+  </view>

@@ -1,1 +1,6 @@
 /* pages/video/video.wxss */
+.total{
+  display: flex;
+  flex-direction: column;
+  justify-content: center
+}
